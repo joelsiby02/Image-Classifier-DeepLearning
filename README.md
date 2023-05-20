@@ -29,10 +29,10 @@ For a complete list of dependencies, please refer to the [requirements.txt] file
 5. Use the trained model to classify images: `python predict.py path/to/image.jpg`
 
 ## Results
-The trained model achieves an accuracy of 100% on the test dataset. The results are plotted using Matplotlib, providing a visual representation of the predicted classes for the images.
+The trained model achieves an accuracy of 100% on the test dataset. The results are plotted using plotly, providing a visual representation of the predicted classes for the images.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. 
 
 ## Acknowledgments
 I am continuously learning and improving my skills in deep learning. This project serves as a learning process and demonstrates my progress in developing an image classifier. The model trained during the process is saved in the 'models' folder for future use.
