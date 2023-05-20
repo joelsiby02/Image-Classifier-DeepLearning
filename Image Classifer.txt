@@ -1,0 +1,51 @@
+Image Classifer: fn i learned today
+
+import os
+
+os.listdir()
+os.path.join()
+os,remove()
+
+
+import cv2
+cv2.read()
+cv2.raed()
+cv2.cvtColor()
+cv2.COLOR_BGR2RGB
+
+
+import imghdr
+imghdr.what()
+
+
+from matplotlib import pyplot as plt
+plt.imshow()
+
+
+
+import tensorflow as tf
+tf.keras.utils.image_dataset_from_directory()
+tf.map()  #no need to use tf, because the above line is used to make a tf dataset from our direcotry folder
+
+
+
+
+
+
+import numpy as np
+data_iterator = data.as_numpy_iterator()
+
+# Create a figure with four subplots in a single row and a size of 20x20 inches
+fig, ax = plt.subplots(ncols=4, figsize=(20, 20))
+
+# Iterate over the first four images in a batch
+for idx, img in enumerate(batch[0][:4]):
+    # Display the image in the current subplot
+    ax[idx].imshow(img.astype(int))
+    
+    # Set the title of the subplot using the corresponding label from the batch
+    ax[idx].title.set_text(batch[1][idx])
+
+    # Get the next batch from the data iterator
+    batch = data_iterator.next()
+
